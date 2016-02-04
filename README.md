@@ -15,17 +15,21 @@ This is a base box for docker. This is based on a Ubuntu 15.05 Box from Boxcutte
 ## Prerequisite
 You  will need following working on your machine
 1. Vagrant  >= 1.4
+
 2. GNU make
+
 3. VMWare Fusion/ Desktop/ AppCatalyst
 
 ## How to build
 
 Building box from source is 2 simple steps:
+
 1. Checkout
 ```shell
 git checkout git@github.com/yogendra/docker-vmware.git
 cd docker-vmware
 ```
+
 2. Build using make
 ```shell
 make
