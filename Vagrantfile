@@ -1,7 +1,6 @@
 Vagrant.configure(2) do |config|
 	config.vm.box = "boxcutter/ubuntu1504"
 	config.vm.hostname = "docker"
-  config.vm.box = "boxcutter/ubuntu1504"
   config.vm.box_check_update = true
   config.vm.network "forwarded_port", guest: 2375, host: 2375
 
